@@ -5,7 +5,7 @@ var primeFactorsOf = require('../../libs/world.prime.factors/lib/prime.factors.o
 
 describe('Prime factors decomposition', function() {
 
-  it('can decompose 2', function() {
+  /*it('can decompose 2', function() {
     expect(primeFactorsOf(2)).to.deep.equal([2]);
   });
 
@@ -17,5 +17,5 @@ describe('Prime factors decomposition', function() {
     expect(function() {
       primeFactorsOf('hello');
     }).to.throw('not a number');
-  });
+  });*/
 });
